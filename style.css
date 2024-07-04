@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(58, 57, 57);
+}
+.body-background{
+    position: absolute;
+    clip-path: polygon(100% 0, 100% 100%, 49% 100%, 65% 48%, 65% 48%, 48% 0);
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgb(245, 135, 32)30%,
+    rgba(252, 70, 107, 1) 100%);
+    z-index: -100;
+}
+.container{
+    display: grid;
+}

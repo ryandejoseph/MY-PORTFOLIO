@@ -1,0 +1,111 @@
+#header{
+    width: 100%;
+    background-color: rgb(58, 57, 57);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px 30px 5px 30px;
+    position: fixed;
+    z-index: 5;
+}
+.welcome{
+    color: white;
+    left: 70px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-wrap: nowrap;
+}.welcome span{
+    color: rgb(245, 135, 32);
+}
+.nav{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+.nav ul li{
+    list-style-type: none;
+    margin: 12px;
+    position: relative;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: radial-gradient(circle, rgb(245, 135, 32)30%,
+    rgba(252, 70, 107, 1) 100%);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.nav a:hover::after{
+    width: 100%;
+}
+.nav li a:hover{
+    color: rgb(245, 135, 32);
+    transition: 1s;
+}
+.name span{
+    color: rgb(245, 135, 32);
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.profile-info{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cv{
+    padding: 10px 20px;
+    background: radial-gradient(circle, rgb(245, 135, 32)30%,
+    rgba(252, 70, 107, 1) 100%);
+    margin-top: 50px;
+    color: white;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-cv:hover {
+    transform: translateY(-5px);
+}
+.name{
+    font-size: 90px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.description{
+    font-family:"Poppins", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.profile-picture{
+    margin-left: -200px;
+}
+.thumbnail-1{
+    height: 500px;
+    width: 500px;
+    object-fit:cover;
+    border-radius: 250px;
+}
+#header i{
+    display: none;
+}

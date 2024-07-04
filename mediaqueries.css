@@ -1,0 +1,258 @@
+@media only screen and (max-width: 356px){
+    #header{
+        position: relative;
+    }
+    .welcome{
+        display: none;
+    }
+    .nav li a::after{
+        display: none;
+    }
+    #bars{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1;
+    }
+    .container{
+        margin-bottom: 180px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto
+    }
+    .about-col-1{
+        margin: 0 auto;
+    }
+    .about-col-2{
+        margin: 0px 0px;
+        text-align:justify;
+    }
+    .about-paragraphs{
+        font-size: 12px;
+        text-align:justify;
+    }
+    .tab-links{
+        font-size: 15px;
+    }
+    .services-list{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        flex-wrap: wrap;
+    }
+    .work-list{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        flex-wrap: wrap;
+    }
+    .layer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 16px;
+    }
+    #contact .row{
+        display: flex;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    #header{
+        position: relative;
+    }
+    .welcome{
+        display: none;
+    }
+    .body-background{
+        display: none;
+    }
+    .profile-picture{
+        display: none;
+    }
+    .nav li a::after{
+        display: none;
+    }
+    .nav li a:hover{
+        display: none;
+    }
+    .nav{
+        background: rgb(245, 135, 32);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        transition: right 0.5s;
+        z-index: 5;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav ul i{
+        display: block;
+        color: white;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        cursor: pointer;
+    }
+    #header i{
+        display:block;
+        font-size: 30px;
+    }
+    #bars{
+        top: 20px;
+        color: white;
+        position: absolute;
+        right: 20px;
+        z-index: 1;
+    }
+    .container{
+        margin-bottom: 200px;
+    }
+    #main{
+        padding-top: 100px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .about-col-1{
+        margin: 0 auto;
+    }
+    .about-col-2{
+        margin: 0px 0px;
+        text-align:justify;
+    }
+    .about-paragraphs{
+        font-size: 12px;
+        text-align:justify;
+    }
+    .tab-links{
+        font-size: 15px;
+    }
+    .tab-titles{
+        z-index: -1;
+    }
+    .services-list{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        flex-wrap: wrap;
+    }
+    .work-list{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        flex-wrap: wrap;
+    }
+    .layer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 16px;
+    }
+    #contact .row{
+        display: flex;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1260px){
+    #header{
+        position: relative;
+    }
+    .welcome{
+        display: block;
+    }
+    .body-background{
+        display: none;
+    }
+    .profile-picture{
+        display: none;
+    }
+    .nav li a::after{
+        display: none;
+    }
+    .nav li a:hover{
+        display: none;
+    }
+    .nav{
+        background: rgb(245, 135, 32);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        transition: right 0.5s;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav ul i{
+        display: block;
+        color: white;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        cursor: pointer;
+    }
+    #header i{
+        display:block;
+        font-size: 30px;
+    }
+    #bars{
+        top: 20px;
+        color: white;
+        position: absolute;
+        right: 20px;
+        z-index: 1;
+    }
+    #main{
+        padding-top: 100px;
+    }
+    .container{
+        margin-bottom: 200px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .about-col-1{
+        margin: 0 auto;
+    }
+    .about-col-2{
+        margin: 0px auto;
+        text-align:justify;
+    }
+    .about-paragraphs{
+        font-size: 12px;
+        text-align:justify;
+    }
+    .tab-links{
+        font-size: 15px;
+    }
+    .tab-titles{
+        justify-content: center;
+        align-items: center;
+    }
+    #contact .row{
+        display: flex;
+        
+    }
+}
+@media only screen and (min-width:1261px) and (max-width:1330px){
+    .body-background{
+        display: none;
+    }
+    #bars{
+        display: none;
+    }
+}

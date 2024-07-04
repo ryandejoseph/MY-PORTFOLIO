@@ -1,0 +1,87 @@
+#about{
+    margin-top: 80px;
+    color: white;
+    }
+    .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0px 30px;
+    }
+    .about-col-1{
+    margin: 40px auto;
+    }
+    .about-col-1 img{
+    height: 450px;
+    width: 100%px;
+    border-radius: 15px;
+    object-fit: cover;
+    }
+    .about-col-2{
+    margin-left: 20px;
+    text-align:justify;
+    }
+    .sub-title{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(245, 135, 32);
+    text-align: center;
+    }
+    .about-paragraphs{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    }
+    .tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+    font-family: "Ubuntu",sans-serif;
+    }
+    .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    }
+    .tab-links:active{
+    color:rgb(248, 109, 16);
+    }
+    .tab-links:visited{
+    color:rgb(248, 109, 16);
+    }
+    .tab-links::after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    background:radial-gradient(circle, rgb(245, 135, 32)30%,
+    rgba(252, 70, 107, 1) 100%);
+    position:absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+    }
+    .tab-links.active-link::after{
+    width: 70%;
+    }
+    .tab-contents span{
+    color: white;
+    font-weight: bold;
+    }
+    #personalDetails{
+    line-height: 30px;
+    }
+    .tab-contents{
+    display: none;
+    margin-top: -26px;
+    }
+    .about-paragraphs i{
+    color: rgb(245, 135, 32);
+    margin-right: 4px;
+    }
+    .tab-contents.active-tab{
+    display: block;
+    }
+    

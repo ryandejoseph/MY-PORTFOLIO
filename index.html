@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://kit.fontawesome.com/8cbd2eb937.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="body-background"></div>
+    <div class="container">
+        <div id="header">
+            <div class="welcome">
+                <p>Welcome to my <span>Portfolio  &lt;/></span></p>
+            </div>
+            <div class="nav" id="sidemenu">
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+            </div>
+            <i id="bars" class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+        
+    <div id="main">
+        <div class="profile-info">
+            <h1 class="name">Hello, I'm <span>Ryan!</span></h1>
+            <p class="description">An Aspiring Web Developer <br> from the Philippines</p>
+            <a href="images/CV - Ryan De Joseph.docx" download class="btn-cv">Download My CV Here!</a>
+        </div>
+        <div class="profile-picture">
+            <img class="thumbnail-1" src="images/thumbnail-1.jpg">
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/thumbnail-2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-paragraphs">
+                Before anything else, I would like to thank you for your interest and taking time reading this.
+                I am delighted for this opportunity to share a bit about my background and journey to you.
+                I am Ryan F. De Joseph, an aspiring web developer, software engineer and game developer. I am a fresh graduate and currently starting my career journey in web development. Since I'm still taking steps into this path just yet, I don't have any solid experience and that's why I made this portfolio to be my training ground to further enhance my skills and knowledge in coding. This is also a platform where I can share my projects and to be able to track my progress when it comes to programming. I make sure that every projects I make, will improve my skills in web development and in other technologies. Each projects would be an opportunity to help me learn and grow.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('personalDetails')">Personal Details</p>
+                    <p class="tab-links" onclick="opentab('backStory')">Back Story</p>
+                    <p class="tab-links" onclick="opentab('goals')">Goals</p>
+                </div>
+                <div class="tab-contents active-tab" id="personalDetails">
+                    <p class="about-paragraphs">
+                        <i class="fa-solid fa-greater-than"></i><span>Birthday :</span> March 1, 2001<br>
+                        <i class="fa-solid fa-greater-than"></i><span>Birthplace :</span> Jawili, Tangalan, Aklan<br>
+                        <i class="fa-solid fa-greater-than"></i><span>Email :</span> ryandejoseph2001@gmail.com<br>
+                        <i class="fa-solid fa-greater-than"></i><span>Phone number :</span> 09319864937<br>
+                    </p>
+                </div>
+                <div class="tab-contents" id="backStory">
+                    <p class="about-paragraphs">
+                        Back then, I was just this kid who likes to play online games. May it be on mobile phone or on a computer, it doesn't matter as long as I enjoy playing. When I got to highschool, my interest in gaming continues to grow. I just found myself going to a computer shop every weekend to play with my friends. I can still recall one of our favorite game which is DOTA. The moment that the game would start, the thrill and excitement inside me is overflowing. I would say that, this was my temporary way of escaping reality. This is also the time when my curiosity kicks in, thinking how these games are created. That's the time when I found out that a game is made up of thousand of lines of code for it to be able to function. This was the very moment I discovered programming. Which leads me to develop my deep interest in technology and the reason why I chosed Information Technology as my college program. Hoping that one day I will be able to design and develop websites, systems or applications that would bring solutions, convenience and even entertainment to different people from day to day lives.
+                    </p>
+                </div>
+                <div class="tab-contents" id="goals">
+                    <p class="about-paragraphs">
+                        Technology brings convenience to our lives and made our daily tasks easier. And as a programmer, it is my dream to develop web and mobile applications with the aim of helping people in their day-to-day lives. My primary goal for now is to become a full-stack developer. As of the moment, I'm already indulging myself in improving my skills and knowledge both in front-end and back-end field. It may not be easy, but I know in myself that I'm ready to take this challenge. If ever time would allow me to explore more, I would also love to see myself in the world of game development. However, I believe that before I can fully achieve these things, I need to have a real work experience in a tech industry. To which, I'm close to finding one.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>
+                Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript. 
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX design</h2>
+                <p>
+                UI/UX design stands for User Interface (UI) and User Experience (UX) design. It's a process of creating digital interfaces, such as websites, mobile apps, or software, with a focus on enhancing the user experience.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App design</h2>
+                <p>
+                App design refers to the process of creating the user interface (UI) and user experience (UX) design for mobile applications. This encompasses both the visual design and the functionality of the app, with the goal of providing users with an intuitive, enjoyable, and efficient experience.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/booking-page.jpg">
+                <div class="layer">
+                    <h3>Online Booking Page</h3>
+                    <p>An online booking page where an interested user can reserve a cottage of their preferred date and time</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/youtube clone.jpg">
+                <div class="layer">
+                    <h3>Youtube clone</h3>
+                    <p>Disclaimer: This is just one of my activities I made during my practice session on html-css from a youtube channel: supersimpledev</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/calculator.jpg">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>A simple calculator made using HTML, CSS, Javascript.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>
+                    <a href="mailto:ryandejoseph2001@gmail.com?subject=Direct%20Message">ryandejoseph2001@gmail.com</a></p>
+                <p><i class="fa-solid fa-square-phone"></i><a href="sms:+639319864937">
+                09319864937</a></p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/?lang=en"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV - Ryan De Joseph.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Ryan<i class="fa-solid fa-star"></i></p>
+    </div>
+</div>
+
+<script src="myScript.js"></script>
+</body>
+</html>
